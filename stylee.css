@@ -1,0 +1,971 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+}
+
+.container .sidebar{
+    width: 220px;
+    height: 1024px;
+    background-color: #253544;
+    text-align: center;
+    float: left;
+}
+
+.container .sidebar .logo{
+    width: 220px;
+    height: 60px;
+}
+
+.content{
+    height: 1024px;
+    background-color: whitesmoke;
+}
+
+.container .sidebar .admin{
+    height: 90px;
+}
+
+.container .sidebar .admin .admin-logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-style: hidden;
+    float: left;
+    margin: 10px;
+}
+
+.container .sidebar .admin .isim{
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.container .sidebar .isim .isim-1{
+    color: white;
+    font-size: 18px;
+}
+
+.container .sidebar .isim .isim-2{
+    color: white;
+    font-size: 18px;
+}
+
+.container .sidebar .product{
+    height: 70px;
+}
+
+.container .sidebar .product .product-logo{
+    width: 35px;
+    height: 35px;
+    float: left;
+    border-style: hidden;
+    margin: 10px;
+}
+
+.container .sidebar .product .product-name{
+    color: white;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-left: 40px;
+    float: left;
+}
+
+.container .sidebar .categories{
+    height: 70px;
+}
+
+.container .sidebar .categories .categories-logo{
+    width: 35px;
+    height: 35px;
+    float: left;
+    border-style: hidden;
+    margin: 10px;
+}
+
+.container .sidebar .categories .categories-name{
+    color: white;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-left: 40px;
+    float: left;
+}
+
+.container .sidebar .orders{
+    height: 70px;
+}
+
+.container .sidebar .orders .orders-logo{
+    width: 35px;
+    height: 35px;
+    float: left;
+    border-style: hidden;
+    margin: 10px;
+}
+
+.container .sidebar .orders .orders-name{
+    color: white;
+    font-size: 16px;
+    padding-top: 18px;
+    padding-left: 40px;
+    float: left;
+    
+}
+
+.container .sidebar .department{
+    height: 70px;
+}
+
+.container .sidebar .department .department-logo{
+    width: 30px;
+    height: 30px;
+    float: left;
+    border-style: hidden;
+    margin: 10px;
+}
+
+.container .sidebar .department .department-name{
+    color: white;
+    font-size: 16px;
+    padding-top: 18px;
+    padding-left: 45px;
+    float: left;
+}
+
+.container .sidebar .weekly{
+    height: 140px;
+}
+
+.container .sidebar .weekly .weekly-logo{
+    width: 30px;
+    height: 30px;
+    float: left;
+    border-style: hidden;
+    margin: 10px;
+}
+
+.container .sidebar .weekly .weekly-name{
+    color: white;
+    font-size: 16px;
+    padding-top: 18px;
+    padding-left: 45px;
+    float: left;
+}
+
+.container .sidebar .mailbox{
+    height: 70px;
+}
+
+.container .sidebar .mailbox .mailbox-logo{
+    width: 30px;
+    height: 30px;
+    float: left;
+    border-style: hidden;
+    margin: 10px;
+}
+
+.container .sidebar .mailbox .mailbox-name{
+    color: white;
+    font-size: 16px;
+    padding-top: 18px;
+    padding-left: 45px;
+    float: left;
+}
+
+.container .sidebar .calendar{
+    height: 70px;
+}
+
+.container .sidebar .calendar .calendar-logo{
+    width: 30px;
+    height: 30px;
+    float: left;
+    border-style: hidden;
+    margin: 10px;
+}
+
+.container .sidebar .calendar .calendar-name{
+    color: white;
+    font-size: 16px;
+    padding-top: 18px;
+    padding-left: 45px;
+    float: left;
+}
+
+.container .sidebar .to-do{
+    height: 70px;
+}
+
+.container .sidebar .to-do .to-do-logo{
+    width: 30px;
+    height: 30px;
+    float: left;
+    border-style: hidden;
+    margin: 10px;
+}
+
+.container .sidebar .to-do .to-do-name{
+    color: white;
+    font-size: 16px;
+    padding-top: 18px;
+    padding-left: 45px;
+    float: left;
+}
+
+.container .sidebar .logout{
+    height: 70px;
+}
+
+.container .sidebar .logout-logo{
+    width: 30px;
+    height: 30px;
+    float: left;
+    border-style: hidden;
+    margin: 10px;
+    margin-left: 15px;
+}
+
+.container .sidebar .logout .logout-name{
+    color: white;
+    font-size: 16px;
+    padding-top: 18px;
+    padding-left: 45px;
+    float: left;
+}
+
+.container .content{
+    width: 1683px;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.container .content .content-1{
+    width: 1683px;
+    height: 60px;
+    float: left;
+    background-color: #FFFFFF;
+}
+
+.container .content .content-1 .menu-bar{
+    height: 20px;
+    color: #6D7C85;
+    float: left;
+    padding-top: 21px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+
+.container .content .content-1 .topright{
+   color: #6D7C85;
+   float: right;
+   font-size: 20px;
+   padding-top: 20px; 
+}
+
+.container .content .content-1 .topright .topright-mail{
+   color: #6D7C85;
+   float: right;
+   font-size: 20px;
+   padding-bottom: 20px;
+   padding-right: 35px;
+}
+
+.container .content .content-1 .topright .topright-bell{
+   color: #6D7C85;
+   float: right;
+   font-size: 20px;
+   padding-bottom: 20px;
+   padding-right: 30px;
+}
+
+.container .content .content-1 .topright .topright-admin{
+   color: #6D7C85;
+   float: right;
+   font-size: 20px;
+   padding-bottom: 20px;
+   padding-right: 25px;
+}
+
+.container .content .fourcolor{
+    height: 150px;
+    width: 1683px;
+    background-color: whitesmoke;
+    float: left;
+}
+
+.container .content .fourcolor .fourcolor-orange{
+    height: 120px;
+    width: 385px;
+    background-color: #F39C12;
+    float: left;
+    margin: 15px;
+    margin-left: 20px;
+    color: white;
+    border: hidden;
+    border-radius: 15px;
+}
+
+.container .content .fourcolor .fourcolor-orange #o1{
+    margin: 10px;
+    padding-left: 55px;
+}
+
+.container .content .fourcolor .fourcolor-orange .info{
+    margin: 10px;
+    padding-left: 100px;
+    padding-top: 12px;
+}
+
+.container .content .fourcolor .fourcolor-orange .info-2{
+    margin: 10px;
+    padding-left: 60px;
+    padding-top: 12px;
+}
+
+.container .content .fourcolor .fourcolor-orange .orange2{
+    float: left;
+    width: 70%;
+    height: 100%;
+}
+
+.container .content .fourcolor .fourcolor-orange .orange3{
+    width: 30%;
+    float: right;
+    height: 100%;
+    background-color: #DA8C10;
+    border: hidden;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.container .content .fourcolor .fourcolor-orange .orange3 .cart{
+    padding-top: 40px;
+    padding-left: 30px;
+    font-size: 40px;
+}
+
+.container .content .fourcolor .fourcolor-blue{
+    height: 120px;
+    width: 385px;
+    background-color: #23B7E5;
+    float: left;
+    margin: 15px;
+    margin-left: 20px;
+    color: white;
+    border: hidden;
+    border-radius: 15px;
+}
+
+.container .content .fourcolor .fourcolor-blue #b1{
+    margin: 10px;
+    padding-left: 70px;
+}
+
+.container .content .fourcolor .fourcolor-blue .info-b{
+    margin: 10px;
+    padding-left: 100px;
+    padding-top: 12px;
+}
+
+.container .content .fourcolor .fourcolor-blue .info-b1{
+    margin: 10px;
+    padding-left: 60px;
+    padding-top: 12px;
+}
+
+.container .content .fourcolor .fourcolor-blue .blue2{
+    float: left;
+    width: 70%;
+    height: 100%;
+}
+
+.container .content .fourcolor .fourcolor-blue .blue3{
+    width: 30%;
+    float: right;
+    height: 100%;
+    background-color: #1FA4CE;
+    border: hidden;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.container .content .fourcolor .fourcolor-blue .blue3 .bar{
+    padding-top: 40px;
+    padding-left: 35px;
+    font-size: 40px;
+}
+
+.container .content .fourcolor .fourcolor-green{
+    height: 120px;
+    width: 385px;
+    background-color: #2ECC71;
+    float: left;
+    margin: 15px;
+    margin-left: 20px;
+    color: white;
+    border: hidden;
+    border-radius: 15px;
+}
+
+.container .content .fourcolor .fourcolor-green #g1{
+    margin: 10px;
+    padding-left: 80px;
+}
+
+.container .content .fourcolor .fourcolor-green .info-g{
+    margin: 10px;
+    padding-left: 90px;
+    padding-top: 12px;
+}
+
+.container .content .fourcolor .fourcolor-green .info-g1{
+    margin: 10px;
+    padding-left: 60px;
+    padding-top: 12px;
+}
+
+.container .content .fourcolor .fourcolor-green .green2{
+    float: left;
+    width: 70%;
+    height: 100%;
+}
+
+.container .content .fourcolor .fourcolor-green .green3{
+    width: 30%;
+    float: right;
+    height: 100%;
+    background-color: #29B765;
+    border: hidden;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.container .content .fourcolor .fourcolor-green .green3 .lira{
+    padding-top: 40px;
+    padding-left: 40px;
+    font-size: 40px;
+}
+
+.container .content .fourcolor .fourcolor-red{
+    height: 120px;
+    width: 385px;
+    background-color: #E74C3C;
+    float: left;
+    margin: 15px;
+    margin-left: 20px;
+    color: white;
+    border: hidden;
+    border-radius: 15px;
+}
+
+.container .content .fourcolor .fourcolor-red #r1{
+    margin: 10px;
+    padding-left: 70px;
+}
+
+.container .content .fourcolor .fourcolor-red .info-r{
+    margin: 10px;
+    padding-left: 100px;
+    padding-top: 12px;
+}
+
+.container .content .fourcolor .fourcolor-red .info-r1{
+    margin: 10px;
+    padding-left: 60px;
+    padding-top: 12px;
+}
+
+.container .content .fourcolor .fourcolor-red .red2{
+    float: left;
+    width: 70%;
+    height: 100%;
+}
+
+.container .content .fourcolor .fourcolor-red .red3{
+    width: 30%;
+    float: right;
+    height: 100%;
+    background-color: #CF4436;
+    border: hidden;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.container .content .fourcolor .fourcolor-red .red3 .users{
+    padding-top: 40px;
+    padding-left: 30px;
+    font-size: 40px;
+}
+
+.container .content .tablo{
+    height: 300px;
+    width: 810px;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 15px;
+    float: left;
+    border: hidden;
+    margin-top: 30px;
+}
+
+.container .content .tablo .statistics .statistic{
+    height: 50px;
+    width: 810px;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+.container .content .tablo .statistics .statistic-logo{
+    width: 800px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 7px;
+    
+}
+
+.container .content .tablo2{
+    height: 300px;
+    width: 810px;
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 15px;
+    float: left;
+    border: hidden;
+    
+}
+
+.container .content .tablo2 .statistics-2 .statistic-2{
+    margin-left: 375px;
+    margin-top: 10px;
+}
+
+.container .content .tablo2 .statistics-2 .statistic-2devam{
+    height: 296px;
+    width: 810px;
+}
+
+.container .content .tablo2 .statistics-2 .statistic-2devam .statistic2-logo {
+    height: 200px;
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
+.container .content .tablo3{
+    height: 300px;
+    width: 810px;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 50px;
+    border-radius: 15px;
+    float: left;
+    border: hidden;
+}
+
+.container .content .tablo3 .statistics-3 .statistic-3{
+    height: 50px;
+    width: 810px;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+.container .content .tablo3 .statistics-3 .statistic-logo-3{
+    width: 800px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 7px;
+    
+}
+
+.container .content .tablo4{
+    height: 300px;
+    width: 810px;
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 50px;
+    border-radius: 15px;
+    float: left;
+    border: hidden;
+    
+}
+
+.container .content .tablo4 .statistics-4 .statistic-4{
+    height: 50px;
+    width: 810px;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+.container .content .tablo4 .statistics-4 .statistic-logo-4{
+    width: 700px;
+    height: 220px;
+    margin-left: 7px;
+    
+}
+
+.container .content .content-2{
+    margin-top: 60px;
+    height: 964px;
+}
+
+.container .content .content-2 .card1{
+    width: 375px;
+    height: 375px;
+    background-color: #374F65;
+    float: left;
+    margin: 15px;
+    margin-left: 20px;
+    color: white;
+    border: hidden;
+    border-radius: 15px;
+}
+
+.container .content .content-2 .card1 .info{
+    height: 50px;
+    width: 375px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.container .content .content-2 .card1 .image{
+    height: 250px;
+    width: 375px;
+}
+
+.container .content .content-2 .card1 .image .image1-1{
+    height: 250px;
+    width: 300px;
+    margin-left: 35px;
+    border-radius: 10px;
+}
+
+.container .content .content-2 .card1 .other-info{
+    height: 25px;
+    width: 375px;
+    margin-left: 125px;
+    margin-top: 5px;
+}
+
+.container .content .content-2 .card1 .other-info2{
+    height: 25px;
+    width: 375px;
+    margin-left: 125px;
+}
+
+.container .content .content-2 .card2{
+    width: 375px;
+    height: 375px;
+    background-color: #374F65;
+    float: left;
+    margin: 15px;
+    margin-left: 20px;
+    color: white;
+    border: hidden;
+    border-radius: 15px;
+}
+
+.container .content .content-2 .card2 .info2{
+    height: 50px;
+    width: 375px;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+.container .content .content-2 .card2 .image2{
+    height: 250px;
+    width: 375px;
+}
+
+.container .content .content-2 .card2 .image2 .image2-1{
+    height: 250px;
+    width: 300px;
+    margin-left: 35px;
+    border-radius: 10px;
+}
+
+.container .content .content-2 .card2 .other-info2-1{
+    height: 25px;
+    width: 375px;
+    margin-left: 140px;
+    margin-top: 5px;
+}
+
+.container .content .content-2 .card2 .other-info2-2{
+    height: 25px;
+    width: 375px;
+    margin-left: 140px;
+}
+
+.container .content .content-2 .card3{
+    width: 375px;
+    height: 375px;
+    background-color: #374F65;
+    float: left;
+    margin: 15px;
+    margin-left: 20px;
+    color: white;
+    border: hidden;
+    border-radius: 15px;
+}
+
+.container .content .content-2 .card3 .info3{
+    height: 50px;
+    width: 375px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+.container .content .content-2 .card3 .image3{
+    height: 250px;
+    width: 375px;
+}
+
+.container .content .content-2 .card3 .image3 .image3-1{
+    height: 250px;
+    width: 300px;
+    margin-left: 35px;
+    border-radius: 10px;
+}
+
+.container .content .content-2 .card3 .other-info3-1{
+    height: 25px;
+    width: 375px;
+    margin-left: 140px;
+    margin-top: 5px;
+}
+
+.container .content .content-2 .card3 .other-info3-2{
+    height: 25px;
+    width: 375px;
+    margin-left: 140px;
+}
+
+.container .content .content-2 .card4{
+    width: 375px;
+    height: 375px;
+    background-color: #374F65;
+    float: left;
+    margin: 15px;
+    margin-left: 20px;
+    color: white;
+    border: hidden;
+    border-radius: 15px;
+}
+
+.container .content .content-2 .card4 .info4{
+    height: 50px;
+    width: 375px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+.container .content .content-2 .card4 .image4{
+    height: 250px;
+    width: 375px;
+}
+
+.container .content .content-2 .card4 .image4 .image4-1{
+    height: 250px;
+    width: 300px;
+    margin-left: 35px;
+    border-radius: 10px;
+}
+
+.container .content .content-2 .card4 .other-info4-1{
+    height: 25px;
+    width: 375px;
+    margin-left: 140px;
+    margin-top: 5px;
+}
+
+.container .content .content-2 .card4 .other-info4-2{
+    height: 25px;
+    width: 375px;
+    margin-left: 140px;
+}
+
+.container .content .content-2 .card5{
+    width: 375px;
+    height: 375px;
+    background-color: #374F65;
+    float: left;
+    margin: 15px;
+    margin-left: 20px;
+    color: white;
+    border: hidden;
+    border-radius: 15px;
+}
+
+.container .content .content-2 .card5 .info5{
+    height: 50px;
+    width: 375px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+.container .content .content-2 .card5 .image5{
+    height: 250px;
+    width: 375px;
+}
+
+.container .content .content-2 .card5 .image5 .image5-1{
+    height: 250px;
+    width: 300px;
+    margin-left: 35px;
+    border-radius: 10px;
+}
+
+.container .content .content-2 .card5 .other-info5-1{
+    height: 25px;
+    width: 375px;
+    margin-left: 140px;
+    margin-top: 5px;
+}
+
+.container .content .content-2 .card5 .other-info5-2{
+    height: 25px;
+    width: 375px;
+    margin-left: 140px;
+}
+
+.container .content .content-2 .card6{
+    width: 375px;
+    height: 375px;
+    background-color: #374F65;
+    float: left;
+    margin: 15px;
+    margin-left: 20px;
+    color: white;
+    border: hidden;
+    border-radius: 15px;
+}
+
+.container .content .content-2 .card6 .info6{
+    height: 50px;
+    width: 375px;
+    margin-left: 105px;
+    margin-top: 20px;
+}
+
+.container .content .content-2 .card6 .image6{
+    height: 250px;
+    width: 375px;
+}
+
+.container .content .content-2 .card6 .image6 .image6-1{
+    height: 250px;
+    width: 300px;
+    margin-left: 35px;
+    border-radius: 10px;
+}
+
+.container .content .content-2 .card6 .other-info6-1{
+    height: 25px;
+    width: 375px;
+    margin-left: 125px;
+    margin-top: 5px;
+}
+
+.container .content .content-2 .card6 .other-info6-2{
+    height: 25px;
+    width: 375px;
+    margin-left: 125px;
+}
+
+.container .content .content-2 .card7{
+    width: 375px;
+    height: 375px;
+    background-color: #374F65;
+    float: left;
+    margin: 15px;
+    margin-left: 20px;
+    color: white;
+    border: hidden;
+    border-radius: 15px;
+}
+
+.container .content .content-2 .card7 .info7{
+    height: 50px;
+    width: 375px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+.container .content .content-2 .card7 .image7{
+    height: 250px;
+    width: 375px;
+}
+
+.container .content .content-2 .card7 .image7 .image7-1{
+    height: 250px;
+    width: 300px;
+    margin-left: 35px;
+    border-radius: 10px;
+}
+
+.container .content .content-2 .card7 .other-info7-1{
+    height: 25px;
+    width: 375px;
+    margin-left: 140px;
+    margin-top: 5px;
+}
+
+.container .content .content-2 .card7 .other-info7-2{
+    height: 25px;
+    width: 375px;
+    margin-left: 140px;
+}
+
+.container .content .content-2 .card8{
+    width: 375px;
+    height: 375px;
+    background-color: #374F65;
+    float: left;
+    margin: 15px;
+    margin-left: 20px;
+    color: white;
+    border: hidden;
+    border-radius: 15px;
+}
+
+.container .content .content-2 .card8 .info8{
+    height: 50px;
+    width: 375px;
+    margin-left: 140px;
+    margin-top: 20px;
+}
+
+.container .content .content-2 .card8 .image8{
+    height: 250px;
+    width: 375px;
+}
+
+.container .content .content-2 .card8 .image8 .image8-1{
+    height: 250px;
+    width: 300px;
+    margin-left: 35px;
+    border-radius: 10px;
+}
+
+.container .content .content-2 .card8 .other-info8-1{
+    height: 25px;
+    width: 375px;
+    margin-left: 140px;
+    margin-top: 5px;
+}
+
+.container .content .content-2 .card8 .other-info8-2{
+    height: 25px;
+    width: 375px;
+    margin-left: 140px;
+}
+
+
+    
